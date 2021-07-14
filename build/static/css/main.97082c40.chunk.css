@@ -1,0 +1,2 @@
+body{background-color:#444;text-align:center;color:#fff}#lista{text-align:left}.App{flex-wrap:wrap}.App,.Card{display:flex}.Card{flex:1 1;margin:20px;border:3px solid #000;border-radius:10px;overflow:hidden;background-color:#fff;flex-direction:column;min-width:300px}.Card .Conteudo{flex:1 1;padding:15px 0;color:#000}.Card .Footer{background-color:#000;color:#fff;padding:5px 0}
+/*# sourceMappingURL=main.97082c40.chunk.css.map */
