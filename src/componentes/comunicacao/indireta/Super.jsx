@@ -2,6 +2,9 @@ import React, {useState} from "react"
 import Sub from "./Sub"
 
 export default (props) => {
+
+    const [num, setNum] = useState(0);
+
     const [valor, setValor] = useState('');
 
     function quandoClicar(ValorGerado) {

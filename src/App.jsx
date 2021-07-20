@@ -9,9 +9,17 @@ import Condicional from "./componentes/Basicos/Condicional"
 import If from "./componentes/Basicos/CondicionalComIf"
 import Pai from "./componentes/comunicacao/direta/Pai"
 import Super from "./componentes/comunicacao/indireta/Super"
+import Input from "./componentes/form/input"
+import Contador from "./componentes/contador/Contador"
 
 export default props =>
 <div className="App">
+<Card Titulo="#10- Contador">
+        <Contador passo={10} valor={100}/>
+    </Card>
+    <Card Titulo="#09- Input">
+        <Input/>
+    </Card>
     <Card Titulo="#08- Comunicação indireta">
         <Super/>
     </Card>
