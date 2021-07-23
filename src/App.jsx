@@ -11,10 +11,14 @@ import Pai from "./componentes/comunicacao/direta/Pai"
 import Super from "./componentes/comunicacao/indireta/Super"
 import Input from "./componentes/form/input"
 import Contador from "./componentes/contador/Contador"
+import Mega from "./componentes/mega/Mega"
 
 export default props =>
 <div className="App">
-<Card Titulo="#10- Contador">
+    <Card Titulo="#11 - Mega-sena">
+        <Mega qtdeNumero={8}/>
+    </Card>
+    <Card Titulo="#10- Contador">
         <Contador passo={10} valor={100}/>
     </Card>
     <Card Titulo="#09- Input">

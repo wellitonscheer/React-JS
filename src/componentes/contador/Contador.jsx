@@ -23,7 +23,7 @@ export default class Contador extends Component{
         return(
             <div>
                 <h2>Contador</h2>
-                    <label for="passoInput">Passo: </label>
+                    <label htmlFor="passoInput">Passo: </label>
                     <input id="passoInput" type="number" style={{fontSize: "15px", width: "60px"}}
                         value={this.state.passo}
                         onChange={e => this.setState({ passo: +e.target.value})}/>
